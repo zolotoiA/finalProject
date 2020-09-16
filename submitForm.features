@@ -1,0 +1,14 @@
+Feature: The check message from webdriver university site is displayed
+
+
+  Scenario: Check if all message is displayed
+     Given I am on the button click element
+     When  I click button clicks me
+     When I inspect and click click me button
+     When  message is displayed
+     And   click close button and click second button
+     When check right message and close message
+     And I click last button
+     When I close the message
+     Then a message is displayed
+
